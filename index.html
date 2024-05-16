@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+<style>
+  body{
+      background-image:url("new.jpg") ;
+      background-image: no-repeat;
+      background-size:cover;
+      
+    }
+</style>
+
+
+</head>
+  <body>
+
+    <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact Us</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <h1><b>Enter your basic,salary and benefits here to help us get your net pay:</b></h1>
+    <div class="payroll">
+
+
+
+
+
+      <div class="container">
+
+        <div class="body">
+          <div class="col-lg-3"><img src="payroll-logo.png"></div>
+          
+
+          
+<div class="col-lg-12">
+
+<div class="calc-b" style="margin-top: 50px;">
+  <h1 style="color: black;">NET PAY CALCULATOR</h1>
+<P><b>>Enter your gross salary below and benefits to calculate your net pay</b</P>
+<div class="form" style="margin-bottom: 50px;">
+
+<form id="my_form" >
+ 
+    <label>Basic salary </label>
+    <input type="number" name="fname" id="bsalary">
+  
+  
+    <label>Benefits</label>
+    <input type="number" name="lname" id="benefit">
+    <label>Enter total expenses</label>
+         <input type="number" name="expenses" id="total_expenses">
+            
+    <input type="submit" value="calculate" style="background-color: yellow; color: red;">
+  
+  
+  
+</form>
+</div>
+<div class="col-lg-12">
+<table id="my_table" border="1" style="  width: 700px; height: 480px; border: solid; color:black">
+  <th>Description</th>
+  <th>Results</th>
+  <tr>
+      <td >Gross salary</td>
+      <td id="Gross_salary"></td>
+  </tr>
+  <tr>
+      <td>NSSF</td>
+      <td id="NSSF"></td>
+  </tr>
+  <tr>
+      <td>NHDF</td>
+      <td id="NHDF"></td>
+  </tr>
+  <tr>
+      <td>Final payee</td>
+      <td id="Final_payee"></td>
+  </tr>
+  <tr>
+      <td>NHIF</td>
+      <td id="NHIF"></td>
+  </tr>
+  <tr>
+      <td>Taxable income</td>
+      <td id="Taxable_income"></td>
+  </tr>
+  <tr>
+      <td>Net pay</td>
+      <td id="Net_pay"></td>
+  </tr>
+  <tr>
+    <td>Balance</td>
+    <td id="budget"></td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+</div>
+
+</div>
+          
+          
+          
+        </div>
+
+
+
+          
+      </div>
+  
+      
+
+      
+
+        <!-- payroll calc -->
+    </div>
+
+    <!-- <div class="budget">
+        <h1>Your net pay is:<p id="Net_pay2"></p></h1>
+        <h1>Enter your total expenses below:</h1>
+        <form id="bid">
+            
+        </form>
+
+        <h1 id="budget"></h1>
+
+    </div> -->
+    
+
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
